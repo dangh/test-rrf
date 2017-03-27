@@ -8,7 +8,7 @@ import _ from 'lodash'
     initializeData: _.cloneDeep(state.savedUser)
   }),
   (dispatch) => ({
-    initializeForm: (data) => dispatch(actions.load('uci', data))
+    initializeForm: (data) => dispatch(actions.load('user', data))
   })
 )
 export default class TestForm extends Component {
